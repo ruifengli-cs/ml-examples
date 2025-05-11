@@ -1,6 +1,6 @@
-# Linear Regression Example
+# Machine Learning Examples
 
-This repository contains a simple example of linear regression using scikit-learn.
+This repository contains examples of various machine learning algorithms using scikit-learn.
 
 ## Requirements
 
@@ -15,16 +15,34 @@ This repository contains a simple example of linear regression using scikit-lear
 pip install scikit-learn numpy matplotlib
 ```
 
-## Usage
+## Examples
 
-Run the regression example:
-
+### 1. Linear Regression
 ```bash
 python 01-regression.py
 ```
-
-This example demonstrates:
+Demonstrates:
 - Loading and preparing data
 - Creating and training a linear regression model
 - Making predictions
-- Visualizing results 
+- Visualizing results
+
+### 2. KNN Classification
+```bash
+python 02-classification-KNN.py
+```
+Demonstrates:
+- K-Nearest Neighbors classification
+- Data preprocessing
+- Model training and evaluation
+- Classification metrics
+
+### 3. Unsupervised K-means Clustering
+```bash
+python 03-unsupervised-Kmeans.py
+```
+Demonstrates:
+- K-means clustering algorithm
+- Data clustering
+- Cluster visualization
+- Model evaluation 
